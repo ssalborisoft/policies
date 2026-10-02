@@ -7,7 +7,9 @@
 <style>
   body { font-family: 'Apple SD Gothic Neo', 'Hiragino Sans', 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 1.6; color: #1a1a1a; padding: 20px 40px; }
   h1 { font-size: 22px; border-bottom: 2px solid #333; padding-bottom: 10px; }
-  h2 { font-size: 16px; margin-top: 24px; border-left: 4px solid #555; padding-left: 8px; }
+  details { margin-top: 12px; border-bottom: 1px solid #ddd; padding-bottom: 8px; }
+  summary { font-size: 16px; font-weight: bold; cursor: pointer; border-left: 4px solid #555; padding-left: 8px; }
+  details[open] summary { margin-bottom: 8px; }
   p, li { margin: 6px 0; }
   nav a { margin-right: 12px; }
   section { margin-top: 40px; }
@@ -22,7 +24,8 @@
 <p>궁금한 점이나 문제가 있으면 이메일로 알려 주세요. 영업일 기준 3일 안에 답장드립니다.</p>
 <p>이메일: <a href="mailto:ssalborisoft@gmail.com">ssalborisoft@gmail.com</a></p>
 
-<h2>잠금화면이 바뀌지 않아요</h2>
+<details>
+<summary>잠금화면이 바뀌지 않아요</summary>
 <p>도장은 잠금화면을 직접 바꿀 수 없어서, 단축어 앱의 개인 자동화가 대신 바꿔 줍니다. 아래를 차례로 확인해 주세요.</p>
 <ol>
 <li>앱의 설정 → <em>월페이퍼 자동화하는 법</em>을 끝까지 따라 했는지</li>
@@ -32,31 +35,39 @@
 <li>설정 → <em>잠금화면에 보여줄 트래커</em>가 <em>꺼짐</em>이 아닌지</li>
 </ol>
 <p>도장 앱을 닫을 때 바뀌므로, 도장을 찍은 뒤 홈 화면으로 나가 보세요.</p>
-
-<h2>도장 앱을 닫을 때마다 'Unable to Set Wallpaper' 알림이 떠요</h2>
+</details>
+<details>
+<summary>도장 앱을 닫을 때마다 'Unable to Set Wallpaper' 알림이 떠요</summary>
 <p>예전에 받은 단축어를 쓰고 있어서 그래요. 단축어 앱에서 기존 단축어를 지우고, 설정 → <em>월페이퍼 자동화하는 법</em>에서 단축어를 다시 가져와 주세요.</p>
-
-<h2>위젯이 늦게 바뀌어요</h2>
-<p>iOS는 배터리를 아끼려고 위젯을 새로 그리는 횟수를 하루 단위로 제한해요. 위젯 버튼을 연달아 누르면 다른 위젯이 한동안 늦게 바뀔 수 있어요. 도장 기록은 바로 저장되고, 시간이 지나면 위젯도 다시 맞춰집니다.</p>
-
-<h2>싱글 트래커와 멀티 트래커는 무엇인가요</h2>
+</details>
+<details>
+<summary>위젯이 늦게 바뀌어요</summary>
+<p>iOS는 배터리를 아끼려고 위젯을 새로 그리는 횟수를 하루 단위로 제한해요. 위젯 버튼을 연달아 누르면 다른 위젯이 한동안 늦게 바뀔 수 있어요. 도장 기록은 바로 저장돼요. 위젯이 어긋나 보이면 도장 앱을 한 번 열었다 닫아 주세요. 모든 위젯이 다시 맞춰져요.</p>
+</details>
+<details>
+<summary>싱글 트래커와 멀티 트래커는 무엇인가요</summary>
 <p>잠금화면에 캘린더를 놓는 두 가지 방식이에요. <strong>싱글 트래커</strong>는 트래커 하나를 크게, <strong>멀티 트래커</strong>는 2열 × 4줄 칸에 여러 트래커를 작게 보여 줘요. 멀티 트래커에서 21일·1달·100일·무기한 트래커는 세로로 두 칸을 차지해요. 설정 → <em>잠금화면에 보여줄 트래커</em>에서 고를 수 있어요.</p>
-
-<h2>강아지친구들 스킨은 왜 싱글 트래커에서만 쓸 수 있나요</h2>
+</details>
+<details>
+<summary>강아지친구들 스킨은 왜 싱글 트래커에서만 쓸 수 있나요</summary>
 <p>화면을 가득 채우는 그림 배경이라, 칸이 작은 멀티 트래커에서는 그림이 제대로 보이지 않아요. 강아지 배경일 때 <em>멀티 트래커</em>를 누르면 멀티 트래커에서 쓸 수 있는 배경으로 바꿔 넘어가요.</p>
-
-<h2>잠금화면 시계에 캘린더가 가려져요</h2>
+</details>
+<details>
+<summary>잠금화면 시계에 캘린더가 가려져요</summary>
 <p>잠금화면 시계는 서체와 크기를 바꿀 수 있어서 앱이 시계 높이를 알 수 없어요. 설정 → <em>잠금화면에 보여줄 트래커</em>에서 미리보기를 보며 <em>캘린더 위치</em>와 <em>캘린더 크기</em>를 맞춰 주세요.</p>
-
-<h2>산 스킨이 보이지 않아요</h2>
+</details>
+<details>
+<summary>산 스킨이 보이지 않아요</summary>
 <p>설정 → <em>구매 복원</em>을 눌러 주세요. 스킨을 산 Apple 계정으로 로그인돼 있어야 해요. 앱을 지웠다 다시 설치한 경우에도 같은 계정이면 산 스킨이 돌아와요.</p>
-
-<h2>기록은 어디에 저장되나요</h2>
+</details>
+<details>
+<summary>기록은 어디에 저장되나요</summary>
 <p>도장 기록은 이 기기에만 저장되고 어디로도 보내지 않아요. 앱을 지우면 기록도 함께 지워지니 주의해 주세요.</p>
-
-<h2>앱 언어를 바꾸고 싶어요</h2>
+</details>
+<details>
+<summary>앱 언어를 바꾸고 싶어요</summary>
 <p>설정 → <em>언어</em>에서 고른 뒤 앱을 완전히 닫았다가 다시 열어 주세요. 위젯도 같은 언어로 바뀌어요.</p>
-
+</details>
 <p><a href="../privacy/">개인정보처리방침</a></p>
 </section>
 
@@ -64,7 +75,8 @@
 <h1>Dojang Support</h1>
 <p>If you have a question or a problem, email us at <a href="mailto:ssalborisoft@gmail.com">ssalborisoft@gmail.com</a>. We reply within 3 business days.</p>
 
-<h2>My Lock Screen doesn't change</h2>
+<details>
+<summary>My Lock Screen doesn't change</summary>
 <p>Dojang can't change your Lock Screen by itself. A personal automation in the Shortcuts app does it. Please check, in order:</p>
 <ol>
 <li>You followed Settings → <em>How to automate your wallpaper</em> in the app to the end</li>
@@ -74,31 +86,39 @@
 <li>Settings → <em>Tracker on the Lock Screen</em> isn't <em>Off</em></li>
 </ol>
 <p>The Lock Screen updates when you close Dojang, so stamp a day and go back to the Home Screen.</p>
-
-<h2>'Unable to Set Wallpaper' appears every time I close Dojang</h2>
+</details>
+<details>
+<summary>'Unable to Set Wallpaper' appears every time I close Dojang</summary>
 <p>You're using an older version of the shortcut. Delete it in the Shortcuts app, then add it again from Settings → <em>How to automate your wallpaper</em>.</p>
-
-<h2>My widgets update late</h2>
-<p>To save battery, iOS limits how often widgets can redraw each day. If you tap widget buttons many times in a row, other widgets may lag for a while. Your stamps are saved right away, and the widgets catch up over time.</p>
-
-<h2>What are Single tracker and Multi tracker?</h2>
+</details>
+<details>
+<summary>My widgets update late</summary>
+<p>To save battery, iOS limits how often widgets can redraw each day. If you tap widget buttons many times in a row, other widgets may lag for a while. Your stamps are saved right away. If a widget looks out of date, open Dojang once and close it — all widgets will catch up.</p>
+</details>
+<details>
+<summary>What are Single tracker and Multi tracker?</summary>
 <p>Two ways to place calendars on your Lock Screen. <strong>Single tracker</strong> shows one tracker large; <strong>Multi tracker</strong> shows several trackers small in a 2 × 4 grid, where 21-day, month, 100-day and ongoing trackers take two slots. Choose in Settings → <em>Tracker on the Lock Screen</em>.</p>
-
-<h2>Why does the Puppy Friends skin work only with Single tracker?</h2>
+</details>
+<details>
+<summary>Why does the Puppy Friends skin work only with Single tracker?</summary>
 <p>Its background is a full-screen illustration that doesn't show properly in Multi tracker's small slots. If you tap <em>Multi tracker</em> with a puppy background, Dojang switches to a background that works there.</p>
-
-<h2>The clock covers my calendar</h2>
+</details>
+<details>
+<summary>The clock covers my calendar</summary>
 <p>You can change the Lock Screen clock's font and size, so the app can't know how tall it is. In Settings → <em>Tracker on the Lock Screen</em>, adjust <em>Calendar position</em> and <em>Calendar size</em> while watching the preview.</p>
-
-<h2>I can't see a skin I bought</h2>
+</details>
+<details>
+<summary>I can't see a skin I bought</summary>
 <p>Tap Settings → <em>Restore purchases</em> while signed in with the Apple Account you bought it with. If you reinstall the app, your purchased skins come back on the same account.</p>
-
-<h2>Where is my data stored?</h2>
+</details>
+<details>
+<summary>Where is my data stored?</summary>
 <p>Your stamps stay on this device and are never sent anywhere. Deleting the app also deletes your records.</p>
-
-<h2>I want to use another language</h2>
+</details>
+<details>
+<summary>I want to use another language</summary>
 <p>Choose it in Settings → <em>Language</em>, then fully close and reopen the app. Widgets switch too.</p>
-
+</details>
 <p><a href="../privacy/">Privacy Policy</a></p>
 </section>
 
@@ -107,7 +127,8 @@
 <p>ご質問や問題があれば、メールでお知らせください。3営業日以内に返信します。</p>
 <p>メール：<a href="mailto:ssalborisoft@gmail.com">ssalborisoft@gmail.com</a></p>
 
-<h2>ロック画面が変わりません</h2>
+<details>
+<summary>ロック画面が変わりません</summary>
 <p>ドジャンはロック画面を直接変えられないため、ショートカットアプリの個人用オートメーションが代わりに変えます。次を順に確認してください。</p>
 <ol>
 <li>アプリの設定 → <em>壁紙を自動化する方法</em>を最後まで進めたか</li>
@@ -117,31 +138,39 @@
 <li>設定 → <em>ロック画面に表示するトラッカー</em>が<em>オフ</em>になっていないか</li>
 </ol>
 <p>ロック画面はドジャンを閉じたときに変わります。スタンプを押したらホーム画面に戻ってみてください。</p>
-
-<h2>ドジャンを閉じるたびに「Unable to Set Wallpaper」が表示されます</h2>
+</details>
+<details>
+<summary>ドジャンを閉じるたびに「Unable to Set Wallpaper」が表示されます</summary>
 <p>以前のショートカットを使っているためです。ショートカットアプリで既存のショートカットを削除し、設定 → <em>壁紙を自動化する方法</em>からもう一度追加してください。</p>
-
-<h2>ウィジェットの更新が遅れます</h2>
-<p>iOS はバッテリーを節約するため、ウィジェットを描き直す回数を1日単位で制限しています。ウィジェットのボタンを続けて押すと、ほかのウィジェットがしばらく遅れることがあります。スタンプはすぐに保存され、時間がたつとウィジェットも追いつきます。</p>
-
-<h2>シングルトラッカーとマルチトラッカーとは？</h2>
+</details>
+<details>
+<summary>ウィジェットの更新が遅れます</summary>
+<p>iOS はバッテリーを節約するため、ウィジェットを描き直す回数を1日単位で制限しています。ウィジェットのボタンを続けて押すと、ほかのウィジェットがしばらく遅れることがあります。スタンプはすぐに保存されます。ウィジェットがずれて見えるときは、ドジャンを一度開いてから閉じてください。すべてのウィジェットが最新になります。</p>
+</details>
+<details>
+<summary>シングルトラッカーとマルチトラッカーとは？</summary>
 <p>ロック画面にカレンダーを置く2つの方法です。<strong>シングルトラッカー</strong>はトラッカー1つを大きく、<strong>マルチトラッカー</strong>は2列 × 4行のマスに複数のトラッカーを小さく表示します。マルチトラッカーでは21日・1か月・100日・無期限のトラッカーが縦に2マス使います。設定 → <em>ロック画面に表示するトラッカー</em>で選べます。</p>
-
-<h2>わんこフレンズのスキンがシングルトラッカーでしか使えないのはなぜですか</h2>
+</details>
+<details>
+<summary>わんこフレンズのスキンがシングルトラッカーでしか使えないのはなぜですか</summary>
 <p>画面いっぱいに広がるイラストの背景なので、マスの小さいマルチトラッカーではきれいに表示されません。わんこの背景で<em>マルチトラッカー</em>を押すと、マルチトラッカーで使える背景に切り替えて移ります。</p>
-
-<h2>ロック画面の時計でカレンダーが隠れます</h2>
+</details>
+<details>
+<summary>ロック画面の時計でカレンダーが隠れます</summary>
 <p>ロック画面の時計は書体やサイズを変えられるため、アプリには時計の高さがわかりません。設定 → <em>ロック画面に表示するトラッカー</em>でプレビューを見ながら<em>カレンダーの位置</em>と<em>カレンダーのサイズ</em>を調整してください。</p>
-
-<h2>購入したスキンが表示されません</h2>
+</details>
+<details>
+<summary>購入したスキンが表示されません</summary>
 <p>設定 → <em>購入を復元</em>を押してください。スキンを購入した Apple アカウントでサインインしている必要があります。アプリを再インストールした場合も、同じアカウントなら購入したスキンが戻ります。</p>
-
-<h2>記録はどこに保存されますか</h2>
+</details>
+<details>
+<summary>記録はどこに保存されますか</summary>
 <p>スタンプの記録はこのデバイスにだけ保存され、どこにも送信されません。アプリを削除すると記録も一緒に削除されるのでご注意ください。</p>
-
-<h2>アプリの言語を変えたい</h2>
+</details>
+<details>
+<summary>アプリの言語を変えたい</summary>
 <p>設定 → <em>言語</em>で選び、アプリを完全に閉じてからもう一度開いてください。ウィジェットも同じ言語になります。</p>
-
+</details>
 <p><a href="../privacy/">プライバシーポリシー</a></p>
 </section>
 </body>
